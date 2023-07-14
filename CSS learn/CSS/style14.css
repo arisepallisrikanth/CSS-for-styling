@@ -1,0 +1,59 @@
+body{
+    min-height: 100vh;
+    
+}
+/* img{
+    display: block;
+
+}
+ */
+
+/* .example{
+    margin:2px ;
+    border :2px solid red;
+}
+.example img{
+    width:35%;
+    height:auto;
+    min-width: 100px;
+    
+}
+ */
+ .hero{
+    display:flex;
+  
+    justify-content: flex-start;
+    align-items: center;
+    gap:3px;
+    border-bottom: 2px solid red;
+    background-color: rgb(250,150,20);
+    background-image: url(/pr-html-learning/vacation.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    
+ }
+ h1{
+    font-size: 500%;
+ }
+ .nowrap{
+    white-space: nowrap;
+ }
+ .off{
+    position:absolute;
+    left:-100000px;
+ }
+
+.profile{
+    width:35%;
+    margin:2rem;
+   padding:30px;
+}
+.profile img{
+    width:50%;
+    height:auto;
+    min-width: 100px;
+    border-radius: 50%;
+    border:2px solid black;
+
+    
+}

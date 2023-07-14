@@ -1,0 +1,25 @@
+body{
+
+    font-size: 4rem;
+}
+a{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+
+}
+a:visited{
+    color: hsl(180, 100%, 50%);
+
+}
+a:hover , a:focus{
+    color:hsl(1, 100%, 50%);
+    background:gold;
+    
+    
+
+
+}
+a:active{
+    color:yellowgreen;
+}

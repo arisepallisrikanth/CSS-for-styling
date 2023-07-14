@@ -1,0 +1,26 @@
+body{
+    font-size: 3rem;
+    padding: 10% 20%;
+}
+ol{
+    list-style-type:upper-alpha;
+    
+    text-align: center;
+    line-height: 6rem;
+    /* list-style-image: url(../check-mark-1292787__340.webp); */
+    list-style: square,outside;
+    
+}
+ul{
+
+}
+ol li:nth-child(1){
+    list-style-type:disc;
+}
+::marker{
+    color: red;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    content:"what  ";
+    list-style-position: inside;
+}

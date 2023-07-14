@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* main{
+    background-color: green;
+    width: 50%;
+}*/
+ /*.opposite{
+    display:none;
+    background-color: #333;
+    color:white;
+    padding: 4rem;
+    margin-top: 1rem;
+    height: 10rem;
+ }*/
+p{
+    background-color: red;
+
+}
+ li{
+    display:none ;
+    background-color: #888;
+    margin:2rem;
+    padding: 2rem;
+
+    
+}
+ 
+  ul{
+    margin: 0;
+    padding:0;
+    
+    /* text-align: right; */
+    list-style-position: inside;
+ }
+ 
+ li a:hover,
+ li a:focus{
+    color:red;
+    background-color: gold;
+
+ }

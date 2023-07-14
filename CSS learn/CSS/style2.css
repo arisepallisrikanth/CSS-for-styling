@@ -1,0 +1,61 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+
+
+
+.container{box-sizing: border-box;
+    border:5px double red;
+    font-size: 3rem;
+    padding: 0.5em;
+    padding: 4rem 1rem;
+    
+    margin: 5rem;
+    outline: 10px solid black;
+    outline-offset: -20px ;
+
+   
+    
+
+    
+    
+
+}
+
+.circle{
+    background-color: gold;
+
+    border: 3px;
+    height: 100px;
+    width: 100px;
+    margin: 100rem auto;
+    outline: auto;
+    border-radius: 50px;
+
+}
+
+
+body{
+    font-size: 2rem;
+    
+    
+    
+    width:100%
+
+}
+p{
+    width: 30ch;
+    min-height: 100vh;
+}
+main{
+    font-size: 2em;
+    width: 50vw;
+    
+    
+
+    background: green;
+    
+}
